@@ -15,10 +15,11 @@ import resources.Base;
 import resources.ExtentReporterNG;
 
 public class Listeners extends Base implements ITestListener {
-
+ 
 	ExtentTest test;
 	ExtentReports extent = ExtentReporterNG.getReportObject();
 	ThreadLocal<ExtentTest> extentTest = new ThreadLocal<ExtentTest>();
+	
 	@Override
 	public void onTestStart(ITestResult result) {
 		

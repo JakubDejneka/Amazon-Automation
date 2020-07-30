@@ -5,7 +5,7 @@
     <classes>
       <class name="E2EFrameworkSample.samplePOMProject.LoginTest">
         <methods>
-          <include name="login"/>
+          <include name="login" invocation-numbers="1"/>
           <include name="tearDown"/>
           <include name="setUp"/>
         </methods>

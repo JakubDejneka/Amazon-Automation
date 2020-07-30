@@ -10,6 +10,8 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
+import org.testng.annotations.DataProvider;
+import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 import pageObjects.HomePage;
 import pageObjects.LoginPage;
@@ -19,40 +21,48 @@ public class LoginTest extends Base{
 
 	public WebDriver driver;
 	public static Logger log = LogManager.getLogger(SearchWithResultsTest.class.getName());
-	 
+ 	 
 	@BeforeTest
 	public void setUp() throws IOException{
 		driver = initializeDriver();
-		log.info("Driver is initialized");
 		driver.manage().window().maximize();
-		log.info("Window is maximized");
-		driver.get(prop.getProperty("homePage"));	
 		log.info("Navigated to url");
 	}
+	 
 	
+	@Test(dataProvider="SearchProvider")
 	
-	@Test
-	public void login() {
+	public void login(String email, String password) {
+		driver.get(prop.getProperty("homePage"));
 		HomePage hp = new HomePage(driver);
 		hp.hoverOverloginDropdown();
 		
 		WebDriverWait wait = new WebDriverWait(driver, 2);
 		wait.until(ExpectedConditions.elementToBeClickable(hp.signInButton()));
-		hp.signInButton().click();
+		hp.signInButton().click();		
 		
 		LoginPage lp = new LoginPage(driver);
-		lp.provideEmail().sendKeys(prop.getProperty("email"));
+		lp.provideEmail().sendKeys(email);
 		log.info("Email is provided");
 		lp.continueButton().click();
-		lp.providePasswordl().sendKeys(prop.getProperty("password"));
+		lp.providePasswordl().sendKeys(password);
 		log.info("Password is provided");
 		lp.signInButton().click();
-		
 		Assert.assertEquals(lp.authenticationRequiredMessage().getText().toString(), lp.getMessage());
 		
-		// dopisać data providera i pododawac logi do tego testu i innych (w tym z bledami log.error?)
 		
 	}
+	
+	@DataProvider(name="SearchProvider")
+    public Object[][] getDataFromDataprovider(){
+    return new Object[][] 
+    	{
+    		{ "jakub_test@mail2paste.com", "secretPassword!" },
+            { "jakub_test2@ofmailer.net", "secretPassword2!"}
+          
+        };
+	}
+		
 	
 	@AfterTest
 	public void tearDown() {

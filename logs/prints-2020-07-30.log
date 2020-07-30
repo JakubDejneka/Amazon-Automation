@@ -1,5 +1,41 @@
-14:49:58.071 [TestNG-tests-1] INFO  E2EFrameworkSample.samplePOMProject.HomePageTitleTest - navigated to url
-14:49:58.078 [TestNG-tests-1] INFO  E2EFrameworkSample.samplePOMProject.HomePageTitleTest - title of page is going to be verified
-14:49:58.208 [TestNG-tests-1] INFO  E2EFrameworkSample.samplePOMProject.HomePageTitleTest - title of page is verified
-14:50:00.688 [TestNG-tests-5] INFO  E2EFrameworkSample.samplePOMProject.SearchWithResultsTest - Email is provided
-14:50:00.807 [TestNG-tests-3] INFO  E2EFrameworkSample.samplePOMProject.SearchWithResultsTest - text is enetered in search fields
+15:06:56.375 [TestNG-tests-4] INFO  E2EFrameworkSample.samplePOMProject.SearchWithResultsTest - text is entered in search field
+15:06:57.938 [TestNG-tests-3] INFO  E2EFrameworkSample.samplePOMProject.SearchWithResultsTest - text is enetered in search fields
+15:06:58.143 [TestNG-tests-5] INFO  E2EFrameworkSample.samplePOMProject.SearchWithResultsTest - Email is provided
+15:06:59.895 [TestNG-tests-2] INFO  E2EFrameworkSample.samplePOMProject.SearchWithNoResultsTest - result bar is not displayed- as expected
+15:07:00.075 [TestNG-tests-4] INFO  E2EFrameworkSample.samplePOMProject.SearchWithResultsTest - result bar is displayed. There were results!
+15:07:00.318 [TestNG-tests-5] INFO  E2EFrameworkSample.samplePOMProject.SearchWithResultsTest - Password is provided
+15:07:00.912 [TestNG-tests-3] INFO  E2EFrameworkSample.samplePOMProject.SearchWithResultsTest - result bar is diplayed. There were results!
+15:13:56.767 [TestNG-tests-2] INFO  E2EFrameworkSample.samplePOMProject.SearchWithNoResultsTest - driver is initialized
+15:13:56.881 [TestNG-tests-5] INFO  E2EFrameworkSample.samplePOMProject.SearchWithResultsTest - Driver is initialized
+15:13:56.898 [TestNG-tests-3] INFO  E2EFrameworkSample.samplePOMProject.SearchWithResultsTest - driver is initialized
+15:13:57.386 [TestNG-tests-4] INFO  E2EFrameworkSample.samplePOMProject.SearchWithResultsTest - driver is initialized
+15:13:57.386 [TestNG-tests-1] INFO  E2EFrameworkSample.samplePOMProject.HomePageTitleTest - driver is initialized
+15:13:58.913 [TestNG-tests-2] INFO  E2EFrameworkSample.samplePOMProject.SearchWithNoResultsTest - window is maximized
+15:13:59.044 [TestNG-tests-5] INFO  E2EFrameworkSample.samplePOMProject.SearchWithResultsTest - Window is maximized
+15:13:59.094 [TestNG-tests-3] INFO  E2EFrameworkSample.samplePOMProject.SearchWithResultsTest - window is maximized
+15:13:59.568 [TestNG-tests-4] INFO  E2EFrameworkSample.samplePOMProject.SearchWithResultsTest - window is maximized
+15:14:00.338 [TestNG-tests-1] INFO  E2EFrameworkSample.samplePOMProject.HomePageTitleTest - window is maximized
+15:14:02.087 [TestNG-tests-2] INFO  E2EFrameworkSample.samplePOMProject.SearchWithNoResultsTest - navigated to url
+15:14:02.110 [TestNG-tests-3] INFO  E2EFrameworkSample.samplePOMProject.SearchWithResultsTest - navigated to url
+15:14:03.688 [TestNG-tests-5] INFO  E2EFrameworkSample.samplePOMProject.SearchWithResultsTest - Navigated to url
+15:14:03.974 [TestNG-tests-4] INFO  E2EFrameworkSample.samplePOMProject.SearchWithResultsTest - navigated to url
+15:14:05.504 [TestNG-tests-1] INFO  E2EFrameworkSample.samplePOMProject.HomePageTitleTest - navigated to url
+15:14:05.506 [TestNG-tests-1] INFO  E2EFrameworkSample.samplePOMProject.HomePageTitleTest - title of page is going to be verified
+15:14:06.394 [TestNG-tests-1] INFO  E2EFrameworkSample.samplePOMProject.HomePageTitleTest - title of page is verified
+15:14:07.368 [TestNG-tests-3] INFO  E2EFrameworkSample.samplePOMProject.SearchWithResultsTest - text is enetered in search fields
+15:14:07.998 [TestNG-tests-4] INFO  E2EFrameworkSample.samplePOMProject.SearchWithResultsTest - text is entered in search field
+15:14:09.595 [TestNG-tests-5] INFO  E2EFrameworkSample.samplePOMProject.SearchWithResultsTest - Email is provided
+15:14:10.184 [TestNG-tests-2] INFO  E2EFrameworkSample.samplePOMProject.SearchWithNoResultsTest - result bar is not displayed- as expected
+15:14:10.322 [TestNG-tests-3] INFO  E2EFrameworkSample.samplePOMProject.SearchWithResultsTest - result bar is diplayed. There were results!
+15:14:11.392 [TestNG-tests-4] INFO  E2EFrameworkSample.samplePOMProject.SearchWithResultsTest - result bar is displayed. There were results!
+15:14:11.455 [TestNG-tests-5] INFO  E2EFrameworkSample.samplePOMProject.SearchWithResultsTest - Password is provided
+16:04:29.251 [TestNG-tests-3] INFO  E2EFrameworkSample.samplePOMProject.SearchWithResultsTest - Navigated to url
+16:04:30.426 [TestNG-tests-1] INFO  E2EFrameworkSample.samplePOMProject.HomePageTitleTest - Title of page is going to be verified
+16:04:30.682 [TestNG-tests-1] INFO  E2EFrameworkSample.samplePOMProject.HomePageTitleTest - Title of page is verified
+16:04:30.892 [TestNG-tests-5] INFO  E2EFrameworkSample.samplePOMProject.SearchWithResultsTest - Navigated to url
+16:04:31.895 [TestNG-tests-3] INFO  E2EFrameworkSample.samplePOMProject.SearchWithResultsTest - Search field is populated with text
+16:04:34.612 [TestNG-tests-4] INFO  E2EFrameworkSample.samplePOMProject.SearchWithResultsTest - Search field is populated with text
+16:04:34.805 [TestNG-tests-2] INFO  E2EFrameworkSample.samplePOMProject.SearchWithNoResultsTest - Search field is populated with text
+16:04:35.057 [TestNG-tests-5] INFO  E2EFrameworkSample.samplePOMProject.SearchWithResultsTest - Email is provided
+16:04:35.110 [TestNG-tests-3] INFO  E2EFrameworkSample.samplePOMProject.SearchWithResultsTest - Result bar is diplayed. There were results!
+16:04:36.910 [TestNG-tests-5] INFO  E2EFrameworkSample.samplePOMProject.SearchWithResultsTest - Password is provided

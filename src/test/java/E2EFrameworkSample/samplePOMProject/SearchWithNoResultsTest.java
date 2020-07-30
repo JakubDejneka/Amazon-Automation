@@ -18,15 +18,13 @@ public class SearchWithNoResultsTest extends Base {
 	
 	public WebDriver driver;
 	public static Logger log = LogManager.getLogger(SearchWithNoResultsTest.class.getName());
+	private String textToSearch ="xxxxxxxxx nothing to search xxxxxxxxxx";
 	
 	@BeforeTest
 	public void setUp() throws IOException{
 		driver = initializeDriver();
-		log.info("driver is initialized");
 		driver.manage().window().maximize();
-		log.info("window is maximized");
 		driver.get(prop.getProperty("homePage"));	
-		log.info("navigated to url");
 	}
 
 	@Test
@@ -35,20 +33,21 @@ public class SearchWithNoResultsTest extends Base {
 		HomePage hp2 = new HomePage(driver);
 		hp2.searchField().clear();
 		hp2.searchField().click();
-		hp2.searchField().sendKeys("xxxxxxxxx nothing to search xxxxxxxxxx");
+		hp2.searchField().sendKeys(textToSearch);
+		log.info("Search field is populated with text");
 		hp2.search();
 		
 		SearchResultsPage srp2 = new SearchResultsPage(driver);
-		log.info("result bar is not displayed- as expected");
+		log.info("Result bar is not displayed- as expected");
 		Assert.assertTrue(srp2.emptyResults().isDisplayed());
 		
 	}
-	
+	 
 	@AfterTest
 	public void tearDown() {
 		driver.close();
 	}
 	
-	
+	 
 
 }

@@ -22,15 +22,13 @@ public class AddToListTest extends Base{
 	public static Logger log = LogManager.getLogger(SearchWithResultsTest.class.getName());
 	private String textToSearch ="The awakening of intelligence";
 	
-	
+	 
 	@BeforeTest
 	public void setUp() throws IOException{
 		driver = initializeDriver();
-		log.info("driver is initialized");
 		driver.manage().window().maximize();
-		log.info("window is maximized");
 		driver.get(prop.getProperty("homePage"));	
-		log.info("navigated to url");
+		log.info("Navigated to url");
 	}
 	
 	@Test
@@ -41,14 +39,14 @@ public class AddToListTest extends Base{
 				hp.searchField().clear();
 				hp.searchField().click();
 				hp.searchField().sendKeys(textToSearch);
-				log.info("text is enetered in search fields");
+				log.info("Search field is populated with text");
 				hp.search();
 				
 				//navigating to search results page and initializing new object of SearchResultsPage
 				SearchResultsPage srp = new SearchResultsPage(driver);		
 				// verify that results are displayed:
 				Assert.assertTrue(srp.resultBar().isDisplayed());
-				log.info("result bar is diplayed. There were results!");
+				log.info("Result bar is diplayed. There were results!");
 				
 				//returning the size of search results in page
 				System.out.println(srp.returnElements().size());

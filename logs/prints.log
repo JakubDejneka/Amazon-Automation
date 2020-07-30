@@ -1,4 +1,41 @@
-14:50:01.136 [TestNG-tests-4] INFO  E2EFrameworkSample.samplePOMProject.SearchWithResultsTest - result bar is diplayed. There were results!
-14:50:02.002 [TestNG-tests-2] INFO  E2EFrameworkSample.samplePOMProject.SearchWithNoResultsTest - result bar is not displayed- as expected
-14:50:02.396 [TestNG-tests-5] INFO  E2EFrameworkSample.samplePOMProject.SearchWithResultsTest - Password is provided
-14:50:03.087 [TestNG-tests-3] INFO  E2EFrameworkSample.samplePOMProject.SearchWithResultsTest - result bar is diplayed. There were results!
+16:04:37.091 [TestNG-tests-2] INFO  E2EFrameworkSample.samplePOMProject.SearchWithNoResultsTest - Result bar is not displayed- as expected
+16:04:37.460 [TestNG-tests-4] INFO  E2EFrameworkSample.samplePOMProject.SearchWithResultsTest - Result bar is displayed. There were results!
+16:04:41.116 [TestNG-tests-4] INFO  E2EFrameworkSample.samplePOMProject.SearchWithResultsTest - Navigated to item details
+16:12:32.635 [main] INFO  E2EFrameworkSample.samplePOMProject.SearchWithNoResultsTest - Search field is populated with text
+16:12:33.865 [main] INFO  E2EFrameworkSample.samplePOMProject.SearchWithNoResultsTest - Result bar is not displayed- as expected
+16:23:34.543 [main] INFO  E2EFrameworkSample.samplePOMProject.SearchWithResultsTest - Navigated to url
+16:23:35.814 [main] INFO  E2EFrameworkSample.samplePOMProject.SearchWithResultsTest - Email is provided
+16:24:12.086 [main] INFO  E2EFrameworkSample.samplePOMProject.SearchWithResultsTest - Navigated to url
+16:24:13.233 [main] INFO  E2EFrameworkSample.samplePOMProject.SearchWithResultsTest - Email is provided
+16:30:27.603 [main] INFO  E2EFrameworkSample.samplePOMProject.SearchWithResultsTest - Navigated to url
+16:30:28.800 [main] INFO  E2EFrameworkSample.samplePOMProject.SearchWithResultsTest - Email is provided
+16:30:29.510 [main] INFO  E2EFrameworkSample.samplePOMProject.SearchWithResultsTest - Password is provided
+16:35:02.387 [main] INFO  E2EFrameworkSample.samplePOMProject.SearchWithResultsTest - Navigated to url
+16:35:07.452 [main] INFO  E2EFrameworkSample.samplePOMProject.SearchWithResultsTest - Email is provided
+16:35:44.686 [main] INFO  E2EFrameworkSample.samplePOMProject.SearchWithResultsTest - Navigated to url
+16:35:47.299 [main] INFO  E2EFrameworkSample.samplePOMProject.SearchWithResultsTest - Email is provided
+16:35:47.998 [main] INFO  E2EFrameworkSample.samplePOMProject.SearchWithResultsTest - Password is provided
+16:35:51.370 [main] INFO  E2EFrameworkSample.samplePOMProject.SearchWithResultsTest - Email is provided
+16:41:05.301 [main] INFO  E2EFrameworkSample.samplePOMProject.SearchWithResultsTest - Navigated to url
+16:41:07.954 [main] INFO  E2EFrameworkSample.samplePOMProject.SearchWithResultsTest - Email is provided
+16:41:08.726 [main] INFO  E2EFrameworkSample.samplePOMProject.SearchWithResultsTest - Password is provided
+16:41:12.066 [main] INFO  E2EFrameworkSample.samplePOMProject.SearchWithResultsTest - Email is provided
+16:41:12.722 [main] INFO  E2EFrameworkSample.samplePOMProject.SearchWithResultsTest - Password is provided
+16:45:58.685 [main] INFO  E2EFrameworkSample.samplePOMProject.SearchWithResultsTest - Navigated to url
+16:46:01.273 [main] INFO  E2EFrameworkSample.samplePOMProject.SearchWithResultsTest - Email is provided
+16:46:02.015 [main] INFO  E2EFrameworkSample.samplePOMProject.SearchWithResultsTest - Password is provided
+16:46:15.867 [main] INFO  E2EFrameworkSample.samplePOMProject.SearchWithResultsTest - Email is provided
+16:46:16.547 [main] INFO  E2EFrameworkSample.samplePOMProject.SearchWithResultsTest - Password is provided
+16:47:09.125 [main] INFO  E2EFrameworkSample.samplePOMProject.SearchWithResultsTest - Navigated to url
+16:47:11.994 [main] INFO  E2EFrameworkSample.samplePOMProject.SearchWithResultsTest - Email is provided
+16:47:12.736 [main] INFO  E2EFrameworkSample.samplePOMProject.SearchWithResultsTest - Password is provided
+16:48:02.736 [main] INFO  E2EFrameworkSample.samplePOMProject.SearchWithResultsTest - Navigated to url
+16:48:05.345 [main] INFO  E2EFrameworkSample.samplePOMProject.SearchWithResultsTest - Email is provided
+16:48:06.104 [main] INFO  E2EFrameworkSample.samplePOMProject.SearchWithResultsTest - Password is provided
+16:48:09.791 [main] INFO  E2EFrameworkSample.samplePOMProject.SearchWithResultsTest - Email is provided
+16:48:10.571 [main] INFO  E2EFrameworkSample.samplePOMProject.SearchWithResultsTest - Password is provided
+16:48:27.293 [main] INFO  E2EFrameworkSample.samplePOMProject.SearchWithResultsTest - Navigated to url
+16:48:29.973 [main] INFO  E2EFrameworkSample.samplePOMProject.SearchWithResultsTest - Email is provided
+16:48:30.603 [main] INFO  E2EFrameworkSample.samplePOMProject.SearchWithResultsTest - Password is provided
+16:48:33.643 [main] INFO  E2EFrameworkSample.samplePOMProject.SearchWithResultsTest - Email is provided
+16:48:34.210 [main] INFO  E2EFrameworkSample.samplePOMProject.SearchWithResultsTest - Password is provided
