@@ -14,6 +14,7 @@ public class SearchResultsPage extends Base{
 	
 	
 	WebDriver driver;	
+	private String linkText;
 		
 	@FindBy(xpath ="//h1[@class='a-size-base s-desktop-toolbar a-text-normal']")
 	private WebElement searchResultBar;
@@ -23,6 +24,12 @@ public class SearchResultsPage extends Base{
 	
 	@FindBy(css=".a-link-normal.a-text-normal:first-child")
 	private List<WebElement> elementsInList;
+	
+	@FindBy(xpath="//a[@id='wishListMainButton-announce']")
+	private WebElement addToListButton;
+
+	@FindBy(id="breadcrumb-back-link")
+	private WebElement backToResults;
 	
 	
 		
@@ -38,10 +45,37 @@ public class SearchResultsPage extends Base{
 	
 	public WebElement emptyResults() {
 		return noResults;
-	}
+	}	
 	
 	public List<WebElement> returnElements() {
 		return elementsInList;
 	}
 	
+	public WebElement addToList() {
+		return addToListButton;
+	}	
+	
+	
+	
+	public void wordToSearchInLink(String anyWord) {	
+		
+			for	(WebElement w: elementsInList) 	{
+					linkText = w.getText();	
+					if(linkText.contains(anyWord)){
+						w.click();
+						break;				
+						}				
+										
+		}if(!linkText.contains(anyWord)) {
+			System.out.println("Your word was not present in any link!");
+		
+	}
 }
+	
+	public WebElement goBackToResults() {
+		return backToResults;
+	}	
+	
+	
+}
+

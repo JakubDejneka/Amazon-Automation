@@ -1,24 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Suite" parallel = "tests">
-
-<listeners>
-<listener class-name="E2EFrameworkSample.samplePOMProject.Listeners"/>
-</listeners>
   
-  
-  <test thread-count="5" name="Test1">
-    <classes>
-      <class name="E2EFrameworkSample.samplePOMProject.SearchTest"/>
-     </classes>
-   </test>
-     
-      
-  <test name ="Test2">
+  <test thread-count="5" name="Test">
     <classes>
       <class name="E2EFrameworkSample.samplePOMProject.HomePageTitleTest"/>
-    </classes>
-  </test>  
-  
-  
-</suite>
+     </classes>
+   </test>   
+      
+      <test name = "Test2">
+      <classes>
+      <class name="E2EFrameworkSample.samplePOMProject.SearchWithNoResultsTest"/>
+       </classes>
+      </test>
+      
+      <test name = "Test3">
+      <classes>
+       <class name="E2EFrameworkSample.samplePOMProject.AddToListTest"/>
+         <class name="E2EFrameworkSample.samplePOMProject.AppTest"/>
+       </classes>
+      </test>
+      
+      <test name = "Test4">
+      <classes>
+       <class name="E2EFrameworkSample.samplePOMProject.SearchWithResultsTest"/>
+       </classes>
+      </test>
+      
+      
+      
+     <test name = "Test5">
+      <classes>
+     <class name="E2EFrameworkSample.samplePOMProject.LoginTest"/>
+       </classes>
+      </test>
+    
+     
+     
+    
+   <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,1 +1,4 @@
-02:28:49.026 [main] INFO  E2EFrameworkSample.samplePOMProject.SearchTest - result bar is not displayed- as expected
+14:50:01.136 [TestNG-tests-4] INFO  E2EFrameworkSample.samplePOMProject.SearchWithResultsTest - result bar is diplayed. There were results!
+14:50:02.002 [TestNG-tests-2] INFO  E2EFrameworkSample.samplePOMProject.SearchWithNoResultsTest - result bar is not displayed- as expected
+14:50:02.396 [TestNG-tests-5] INFO  E2EFrameworkSample.samplePOMProject.SearchWithResultsTest - Password is provided
+14:50:03.087 [TestNG-tests-3] INFO  E2EFrameworkSample.samplePOMProject.SearchWithResultsTest - result bar is diplayed. There were results!

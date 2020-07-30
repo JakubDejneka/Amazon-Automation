@@ -1,5 +1,5 @@
-02:28:36.343 [main] INFO  E2EFrameworkSample.samplePOMProject.SearchTest - text is enetered in search fields
-02:28:37.908 [main] INFO  E2EFrameworkSample.samplePOMProject.SearchTest - result bar is diplayed. There were results!
-02:28:43.864 [main] INFO  E2EFrameworkSample.samplePOMProject.SearchTest - driver is initialized
-02:28:46.033 [main] INFO  E2EFrameworkSample.samplePOMProject.SearchTest - window is maximized
-02:28:47.324 [main] INFO  E2EFrameworkSample.samplePOMProject.SearchTest - navigated to url
+14:49:58.071 [TestNG-tests-1] INFO  E2EFrameworkSample.samplePOMProject.HomePageTitleTest - navigated to url
+14:49:58.078 [TestNG-tests-1] INFO  E2EFrameworkSample.samplePOMProject.HomePageTitleTest - title of page is going to be verified
+14:49:58.208 [TestNG-tests-1] INFO  E2EFrameworkSample.samplePOMProject.HomePageTitleTest - title of page is verified
+14:50:00.688 [TestNG-tests-5] INFO  E2EFrameworkSample.samplePOMProject.SearchWithResultsTest - Email is provided
+14:50:00.807 [TestNG-tests-3] INFO  E2EFrameworkSample.samplePOMProject.SearchWithResultsTest - text is enetered in search fields

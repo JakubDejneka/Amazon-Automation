@@ -24,7 +24,7 @@ public class Base {
 		prop = new Properties();
 		FileInputStream fis = new FileInputStream(System.getProperty("user.dir")+"\\src\\main\\java\\resources\\data.properties");
 		
-		prop.load(fis);
+		prop.load(fis);  
 		// if I want to run it from Jenkins configurations- use System.getProperty. In other cases use prop.getProperty!
 		String browserName = prop.getProperty("browser");
 		//String browserName = System.getProperty("browser");
