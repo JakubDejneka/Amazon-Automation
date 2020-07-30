@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 39.605 s <<< FAILURE! - in TestSuite
+getTitle(E2EFrameworkSample.samplePOMProject.HomePageTitleTest)  Time elapsed: 0.73 s  <<< FAILURE!
+junit.framework.ComparisonFailure: expected:<..., Books, DVDs & more[]> but was:<..., Books, DVDs & more[SSS]>
+	at E2EFrameworkSample.samplePOMProject.HomePageTitleTest.getTitle(HomePageTitleTest.java:34)
+

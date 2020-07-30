@@ -1,0 +1,5 @@
+02:28:36.343 [main] INFO  E2EFrameworkSample.samplePOMProject.SearchTest - text is enetered in search fields
+02:28:37.908 [main] INFO  E2EFrameworkSample.samplePOMProject.SearchTest - result bar is diplayed. There were results!
+02:28:43.864 [main] INFO  E2EFrameworkSample.samplePOMProject.SearchTest - driver is initialized
+02:28:46.033 [main] INFO  E2EFrameworkSample.samplePOMProject.SearchTest - window is maximized
+02:28:47.324 [main] INFO  E2EFrameworkSample.samplePOMProject.SearchTest - navigated to url

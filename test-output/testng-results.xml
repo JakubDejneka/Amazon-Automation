@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-07-30T02:28:28 CEST" name="Default suite" finished-at="2020-07-30T02:28:53 CEST" duration-ms="24745">
+    <groups>
+    </groups>
+    <test started-at="2020-07-30T02:28:28 CEST" name="Default test" finished-at="2020-07-30T02:28:53 CEST" duration-ms="24745">
+      <class name="E2EFrameworkSample.samplePOMProject.SearchTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:E2EFrameworkSample.samplePOMProject.SearchTest@55b5f5d2]" started-at="2020-07-30T02:28:28 CEST" name="setUp" finished-at="2020-07-30T02:28:35 CEST" duration-ms="7082" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="successfullSearch()[pri:0, instance:E2EFrameworkSample.samplePOMProject.SearchTest@55b5f5d2]" started-at="2020-07-30T02:28:35 CEST" name="successfullSearch" finished-at="2020-07-30T02:28:40 CEST" duration-ms="4751" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- successfullSearch -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:E2EFrameworkSample.samplePOMProject.SearchTest@55b5f5d2]" started-at="2020-07-30T02:28:40 CEST" name="tearDown" finished-at="2020-07-30T02:28:40 CEST" duration-ms="86" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:E2EFrameworkSample.samplePOMProject.SearchTest@55b5f5d2]" started-at="2020-07-30T02:28:40 CEST" name="setUp" finished-at="2020-07-30T02:28:47 CEST" duration-ms="6684" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="unsuccessfullSearch()[pri:0, instance:E2EFrameworkSample.samplePOMProject.SearchTest@55b5f5d2]" started-at="2020-07-30T02:28:47 CEST" name="unsuccessfullSearch" finished-at="2020-07-30T02:28:49 CEST" duration-ms="1781" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- unsuccessfullSearch -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:E2EFrameworkSample.samplePOMProject.SearchTest@55b5f5d2]" started-at="2020-07-30T02:28:49 CEST" name="tearDown" finished-at="2020-07-30T02:28:53 CEST" duration-ms="4331" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- E2EFrameworkSample.samplePOMProject.SearchTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
