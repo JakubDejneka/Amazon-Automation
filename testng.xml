@@ -7,8 +7,8 @@
   
   <test thread-count="5" name="Test">
     <classes>
-    <class name="E2EFrameworkSample.samplePOMProject.Listeners"/>
       <class name="E2EFrameworkSample.samplePOMProject.HomePageTitleTest"/>
+      <class name="E2EFrameworkSample.samplePOMProject.LoginTest"/>
      </classes>
    </test>   
       
@@ -28,6 +28,8 @@
       <test name = "Test4">
       <classes>
        <class name="E2EFrameworkSample.samplePOMProject.SearchWithResultsTest"/>
+       <class name="E2EFrameworkSample.samplePOMProject.AddToCartRandomItemsTest"/>
+       
        </classes>
       </test>
       
@@ -35,6 +37,7 @@
       
      <test name = "Test5">
       <classes>
+     <class name="E2EFrameworkSample.samplePOMProject.LoginTest"/>
      <class name="E2EFrameworkSample.samplePOMProject.LoginTest"/>
        </classes>
       </test>

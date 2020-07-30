@@ -22,6 +22,17 @@ public class HomePage extends Base{
 	@FindBy(xpath="//span[@class='nav-action-inner']")
 	private WebElement signInButton;
 	
+	@FindBy(id="nav-hamburger-menu")
+	private WebElement mainMenu;
+	
+	@FindBy(xpath="//a[@data-menu-id='8']")
+	private WebElement smartHome;
+	
+	@FindBy(xpath="//a[text()='Speakers']")
+	private WebElement speakers;
+
+	
+	
 	
 	
 	public HomePage(WebDriver driver) {
@@ -50,6 +61,18 @@ public class HomePage extends Base{
 	
 	public WebElement signInButton() {
 		return signInButton;
+	}
+	
+	public WebElement mainMenu() {
+		return mainMenu;
+	}
+	
+	public WebElement smartHome() {
+		return smartHome;
+	}
+	
+	public WebElement speakers() {
+		return speakers;
 	}
 	
 	

@@ -19,9 +19,9 @@ import resources.Base;
 public class AddToListTest extends Base{
 	 
 	public WebDriver driver;
-	public static Logger log = LogManager.getLogger(SearchWithResultsTest.class.getName());
+	public static Logger log = LogManager.getLogger(AddToListTest.class.getName());
 	private String textToSearch ="The awakening of intelligence";
-	
+	 
 	 
 	@BeforeTest
 	public void setUp() throws IOException{
@@ -30,7 +30,7 @@ public class AddToListTest extends Base{
 		driver.get(prop.getProperty("homePage"));	
 		log.info("Navigated to url");
 	}
-	
+	 
 	@Test
 	public void addToList() { 
 		
@@ -47,10 +47,7 @@ public class AddToListTest extends Base{
 				// verify that results are displayed:
 				Assert.assertTrue(srp.resultBar().isDisplayed());
 				log.info("Result bar is diplayed. There were results!");
-				
-				//returning the size of search results in page
-				System.out.println(srp.returnElements().size());
-				
+								
 				
 				try{		
 				//enter word to search in link 

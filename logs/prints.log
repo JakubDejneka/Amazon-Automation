@@ -39,3 +39,53 @@
 16:48:30.603 [main] INFO  E2EFrameworkSample.samplePOMProject.SearchWithResultsTest - Password is provided
 16:48:33.643 [main] INFO  E2EFrameworkSample.samplePOMProject.SearchWithResultsTest - Email is provided
 16:48:34.210 [main] INFO  E2EFrameworkSample.samplePOMProject.SearchWithResultsTest - Password is provided
+19:42:14.526 [main] INFO  E2EFrameworkSample.samplePOMProject.AddToCartRandomItems - Navigated to url
+19:54:56.323 [main] INFO  E2EFrameworkSample.samplePOMProject.AddToCartRandomItems - Navigated to url
+19:57:19.613 [main] INFO  E2EFrameworkSample.samplePOMProject.AddToCartRandomItems - Navigated to url
+20:00:08.890 [main] INFO  E2EFrameworkSample.samplePOMProject.AddToCartRandomItems - Navigated to url
+20:10:28.856 [main] INFO  E2EFrameworkSample.samplePOMProject.AddToCartRandomItems - Navigated to url
+20:14:14.381 [main] INFO  E2EFrameworkSample.samplePOMProject.AddToCartRandomItems - Navigated to url
+20:16:37.748 [main] INFO  E2EFrameworkSample.samplePOMProject.AddToCartRandomItems - Navigated to url
+20:17:59.652 [main] INFO  E2EFrameworkSample.samplePOMProject.AddToCartRandomItems - Navigated to url
+20:21:01.473 [main] INFO  E2EFrameworkSample.samplePOMProject.AddToCartRandomItems - Navigated to url
+20:22:34.285 [main] INFO  E2EFrameworkSample.samplePOMProject.AddToCartRandomItems - Navigated to url
+20:25:35.904 [main] INFO  E2EFrameworkSample.samplePOMProject.AddToCartRandomItems - Navigated to url
+20:26:52.168 [main] INFO  E2EFrameworkSample.samplePOMProject.AddToCartRandomItems - Navigated to url
+20:30:59.908 [main] INFO  E2EFrameworkSample.samplePOMProject.AddToCartRandomItems - Navigated to url
+20:31:45.280 [main] INFO  E2EFrameworkSample.samplePOMProject.AddToCartRandomItems - Navigated to url
+20:33:34.998 [main] INFO  E2EFrameworkSample.samplePOMProject.AddToCartRandomItems - Navigated to url
+20:34:25.651 [main] INFO  E2EFrameworkSample.samplePOMProject.AddToCartRandomItems - Navigated to url
+20:46:54.034 [main] INFO  E2EFrameworkSample.samplePOMProject.AddToCartRandomItems - Navigated to url
+20:57:40.937 [main] INFO  E2EFrameworkSample.samplePOMProject.AddToCartRandomItemsTest - Navigated to url
+20:59:34.082 [main] INFO  E2EFrameworkSample.samplePOMProject.AddToCartRandomItemsTest - Navigated to url
+21:04:26.311 [main] INFO  E2EFrameworkSample.samplePOMProject.AddToCartRandomItemsTest - Navigated to url
+21:09:20.853 [main] INFO  E2EFrameworkSample.samplePOMProject.AddToCartRandomItemsTest - Navigated to url
+21:10:55.244 [main] INFO  E2EFrameworkSample.samplePOMProject.AddToCartRandomItemsTest - Navigated to url
+21:12:33.017 [main] INFO  E2EFrameworkSample.samplePOMProject.AddToCartRandomItemsTest - Navigated to url
+21:24:19.512 [main] INFO  E2EFrameworkSample.samplePOMProject.AddToCartRandomItemsTest - Navigated to url
+21:26:44.169 [main] INFO  E2EFrameworkSample.samplePOMProject.AddToCartRandomItemsTest - Navigated to url
+21:31:05.285 [main] INFO  E2EFrameworkSample.samplePOMProject.AddToCartRandomItemsTest - Navigated to url
+21:33:07.546 [main] INFO  E2EFrameworkSample.samplePOMProject.AddToCartRandomItemsTest - Navigated to url
+21:34:53.808 [main] INFO  E2EFrameworkSample.samplePOMProject.AddToCartRandomItemsTest - Navigated to url
+21:37:54.193 [main] INFO  E2EFrameworkSample.samplePOMProject.AddToCartRandomItemsTest - Navigated to url
+21:41:20.618 [TestNG-tests-5] INFO  E2EFrameworkSample.samplePOMProject.LoginTest - Navigated to url
+21:41:24.463 [TestNG-tests-3] INFO  E2EFrameworkSample.samplePOMProject.AddToListTest - Navigated to url
+21:41:25.956 [TestNG-tests-4] INFO  E2EFrameworkSample.samplePOMProject.AddToCartRandomItemsTest - Navigated to url
+21:41:30.069 [TestNG-tests-3] INFO  E2EFrameworkSample.samplePOMProject.AddToListTest - Search field is populated with text
+21:41:31.426 [TestNG-tests-2] INFO  E2EFrameworkSample.samplePOMProject.SearchWithNoResultsTest - Search field is populated with text
+21:41:31.541 [TestNG-tests-5] INFO  E2EFrameworkSample.samplePOMProject.LoginTest - Email is provided
+21:41:32.600 [TestNG-tests-3] INFO  E2EFrameworkSample.samplePOMProject.AddToListTest - Result bar is diplayed. There were results!
+21:41:33.103 [TestNG-tests-2] INFO  E2EFrameworkSample.samplePOMProject.SearchWithNoResultsTest - Result bar is not displayed- as expected
+21:41:33.481 [TestNG-tests-5] INFO  E2EFrameworkSample.samplePOMProject.LoginTest - Password is provided
+21:41:34.391 [TestNG-tests-1] INFO  E2EFrameworkSample.samplePOMProject.LoginTest - Navigated to url
+21:41:35.036 [TestNG-tests-1] INFO  E2EFrameworkSample.samplePOMProject.HomePageTitleTest - Title of page is going to be verified
+21:41:35.065 [TestNG-tests-1] INFO  E2EFrameworkSample.samplePOMProject.HomePageTitleTest - Title of page is verified
+21:41:40.993 [TestNG-tests-4] INFO  E2EFrameworkSample.samplePOMProject.SearchWithResultsTest - Search field is populated with text
+21:41:42.342 [TestNG-tests-1] INFO  E2EFrameworkSample.samplePOMProject.LoginTest - Email is provided
+21:41:43.075 [TestNG-tests-5] INFO  E2EFrameworkSample.samplePOMProject.LoginTest - Email is provided
+21:41:43.232 [TestNG-tests-4] INFO  E2EFrameworkSample.samplePOMProject.SearchWithResultsTest - Result bar is displayed. There were results!
+21:41:43.940 [TestNG-tests-1] INFO  E2EFrameworkSample.samplePOMProject.LoginTest - Password is provided
+21:41:44.162 [TestNG-tests-5] INFO  E2EFrameworkSample.samplePOMProject.LoginTest - Password is provided
+21:41:44.975 [TestNG-tests-4] INFO  E2EFrameworkSample.samplePOMProject.SearchWithResultsTest - Navigated to item details
+21:41:48.648 [TestNG-tests-1] INFO  E2EFrameworkSample.samplePOMProject.LoginTest - Email is provided
+21:41:49.711 [TestNG-tests-1] INFO  E2EFrameworkSample.samplePOMProject.LoginTest - Password is provided

@@ -20,14 +20,14 @@ import resources.Base;
 public class LoginTest extends Base{
 
 	public WebDriver driver;
-	public static Logger log = LogManager.getLogger(SearchWithResultsTest.class.getName());
+	public static Logger log = LogManager.getLogger(LoginTest.class.getName());
  	 
 	@BeforeTest
 	public void setUp() throws IOException{
 		driver = initializeDriver();
 		driver.manage().window().maximize();
 		log.info("Navigated to url");
-	}
+	} 
 	 
 	
 	@Test(dataProvider="SearchProvider")
@@ -48,6 +48,11 @@ public class LoginTest extends Base{
 		lp.providePasswordl().sendKeys(password);
 		log.info("Password is provided");
 		lp.signInButton().click();
+		
+		// Note: test don't cover two-step authentication
+		// Till this moment data provider annotation has done its work. 
+		//After this line test may fail because of amount of login attempts made on server.
+		
 		Assert.assertEquals(lp.authenticationRequiredMessage().getText().toString(), lp.getMessage());
 		
 		
