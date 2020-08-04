@@ -1,20 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-08-04T18:54:50 CEST" name="Default suite" finished-at="2020-08-04T18:54:58 CEST" duration-ms="8067">
+  <suite started-at="2020-08-05T01:01:49 CEST" name="Default suite" finished-at="2020-08-05T01:01:55 CEST" duration-ms="6016">
     <groups>
     </groups>
-    <test started-at="2020-08-04T18:54:50 CEST" name="Default test" finished-at="2020-08-04T18:54:58 CEST" duration-ms="8067">
+    <test started-at="2020-08-05T01:01:49 CEST" name="Default test" finished-at="2020-08-05T01:01:55 CEST" duration-ms="6016">
       <class name="E2EFrameworkSample.samplePOMProject.RestAssuredTest">
-        <test-method signature="anotherGet()[pri:0, instance:E2EFrameworkSample.samplePOMProject.RestAssuredTest@12bfd80d]" started-at="2020-08-04T18:54:50 CEST" name="anotherGet" finished-at="2020-08-04T18:54:58 CEST" duration-ms="7750" status="PASS">
+        <test-method signature="exampleDeleteRequest()[pri:0, instance:E2EFrameworkSample.samplePOMProject.RestAssuredTest@618c5d94]" started-at="2020-08-05T01:01:49 CEST" name="exampleDeleteRequest" finished-at="2020-08-05T01:01:55 CEST" duration-ms="5916" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- anotherGet -->
-        <test-method signature="simpleGet()[pri:0, instance:E2EFrameworkSample.samplePOMProject.RestAssuredTest@12bfd80d]" started-at="2020-08-04T18:54:58 CEST" name="simpleGet" finished-at="2020-08-04T18:54:58 CEST" duration-ms="193" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- simpleGet -->
+        </test-method> <!-- exampleDeleteRequest -->
       </class> <!-- E2EFrameworkSample.samplePOMProject.RestAssuredTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->

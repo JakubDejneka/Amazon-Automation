@@ -140,3 +140,5 @@
 13:45:05.058 [main] INFO  E2EFrameworkSample.samplePOMProject.LoginTest - Email is provided
 13:45:07.226 [main] INFO  E2EFrameworkSample.samplePOMProject.LoginTest - Password is provided
 18:54:58.568 [main] INFO  E2EFrameworkSample.samplePOMProject.RestAssuredTest - Response has been printed!
+22:10:12.239 [main] INFO  E2EFrameworkSample.samplePOMProject.RestAssuredTest - Response has been printed!
+22:11:07.629 [main] INFO  E2EFrameworkSample.samplePOMProject.RestAssuredTest - Response has been printed!
