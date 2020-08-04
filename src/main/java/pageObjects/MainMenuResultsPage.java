@@ -14,7 +14,6 @@ public class MainMenuResultsPage extends Base{
 	
 	
 	WebDriver driver;	
-	private String linkText;
 	private String selectedItem;
 		
 	@FindBy(css =".a-size-medium.s-inline.s-access-title.a-text-normal")

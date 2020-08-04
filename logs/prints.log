@@ -89,3 +89,54 @@
 21:41:44.975 [TestNG-tests-4] INFO  E2EFrameworkSample.samplePOMProject.SearchWithResultsTest - Navigated to item details
 21:41:48.648 [TestNG-tests-1] INFO  E2EFrameworkSample.samplePOMProject.LoginTest - Email is provided
 21:41:49.711 [TestNG-tests-1] INFO  E2EFrameworkSample.samplePOMProject.LoginTest - Password is provided
+12:15:15.236 [TestNG-tests-5] INFO  E2EFrameworkSample.samplePOMProject.LoginTest - Navigated to url
+12:15:20.004 [TestNG-tests-3] INFO  E2EFrameworkSample.samplePOMProject.AddToListTest - Navigated to url
+12:15:20.957 [TestNG-tests-4] INFO  E2EFrameworkSample.samplePOMProject.AddToCartRandomItemsTest - Navigated to url
+12:15:27.787 [TestNG-tests-3] INFO  E2EFrameworkSample.samplePOMProject.AddToListTest - Search field is populated with text
+12:15:28.054 [TestNG-tests-5] INFO  E2EFrameworkSample.samplePOMProject.LoginTest - Email is provided
+12:15:28.615 [TestNG-tests-2] INFO  E2EFrameworkSample.samplePOMProject.SearchWithNoResultsTest - Search field is populated with text
+12:15:30.472 [TestNG-tests-5] INFO  E2EFrameworkSample.samplePOMProject.LoginTest - Password is provided
+12:15:30.628 [TestNG-tests-3] INFO  E2EFrameworkSample.samplePOMProject.AddToListTest - Result bar is diplayed. There were results!
+12:15:30.753 [TestNG-tests-2] INFO  E2EFrameworkSample.samplePOMProject.SearchWithNoResultsTest - Result bar is not displayed- as expected
+12:15:32.192 [TestNG-tests-1] INFO  E2EFrameworkSample.samplePOMProject.LoginTest - Navigated to url
+12:15:32.194 [TestNG-tests-1] INFO  E2EFrameworkSample.samplePOMProject.HomePageTitleTest - Title of page is going to be verified
+12:15:32.290 [TestNG-tests-1] INFO  E2EFrameworkSample.samplePOMProject.HomePageTitleTest - Title of page is verified
+12:15:38.885 [TestNG-tests-4] INFO  E2EFrameworkSample.samplePOMProject.SearchWithResultsTest - Search field is populated with text
+12:15:39.672 [TestNG-tests-1] INFO  E2EFrameworkSample.samplePOMProject.LoginTest - Email is provided
+12:15:40.153 [TestNG-tests-5] INFO  E2EFrameworkSample.samplePOMProject.LoginTest - Email is provided
+12:15:41.488 [TestNG-tests-4] INFO  E2EFrameworkSample.samplePOMProject.SearchWithResultsTest - Result bar is displayed. There were results!
+12:15:41.958 [TestNG-tests-5] INFO  E2EFrameworkSample.samplePOMProject.LoginTest - Password is provided
+12:15:41.981 [TestNG-tests-1] INFO  E2EFrameworkSample.samplePOMProject.LoginTest - Password is provided
+12:15:46.170 [TestNG-tests-4] INFO  E2EFrameworkSample.samplePOMProject.SearchWithResultsTest - Navigated to item details
+12:15:46.897 [TestNG-tests-1] INFO  E2EFrameworkSample.samplePOMProject.LoginTest - Email is provided
+12:15:47.919 [TestNG-tests-1] INFO  E2EFrameworkSample.samplePOMProject.LoginTest - Password is provided
+12:17:32.423 [main] INFO  E2EFrameworkSample.samplePOMProject.AddToCartRandomItemsTest - Navigated to url
+12:19:04.236 [main] INFO  E2EFrameworkSample.samplePOMProject.AddToCartRandomItemsTest - Navigated to url
+12:21:26.555 [main] INFO  E2EFrameworkSample.samplePOMProject.AddToCartRandomItemsTest - Navigated to url
+12:23:56.386 [main] INFO  E2EFrameworkSample.samplePOMProject.AddToCartRandomItemsTest - Navigated to url
+21:36:09.737 [main] INFO  E2EFrameworkSample.samplePOMProject.AddToCartRandomItemsTest - Navigated to url
+13:40:19.596 [TestNG-tests-5] INFO  E2EFrameworkSample.samplePOMProject.LoginTest - Navigated to url
+13:40:27.644 [TestNG-tests-4] INFO  E2EFrameworkSample.samplePOMProject.AddToCartRandomItemsTest - Navigated to url
+13:40:27.662 [TestNG-tests-3] INFO  E2EFrameworkSample.samplePOMProject.AddToListTest - Navigated to url
+13:40:44.699 [TestNG-tests-3] INFO  E2EFrameworkSample.samplePOMProject.AddToListTest - Search field is populated with text
+13:40:44.727 [TestNG-tests-2] INFO  E2EFrameworkSample.samplePOMProject.SearchWithNoResultsTest - Search field is populated with text
+13:40:44.995 [TestNG-tests-1] INFO  E2EFrameworkSample.samplePOMProject.LoginTest - Navigated to url
+13:40:44.999 [TestNG-tests-1] INFO  E2EFrameworkSample.samplePOMProject.HomePageTitleTest - Title of page is going to be verified
+13:40:45.634 [TestNG-tests-1] INFO  E2EFrameworkSample.samplePOMProject.HomePageTitleTest - Title of page is verified
+13:40:52.460 [TestNG-tests-2] INFO  E2EFrameworkSample.samplePOMProject.SearchWithNoResultsTest - Result bar is not displayed- as expected
+13:40:55.647 [TestNG-tests-5] INFO  E2EFrameworkSample.samplePOMProject.LoginTest - Email is provided
+13:40:55.725 [TestNG-tests-3] INFO  E2EFrameworkSample.samplePOMProject.AddToListTest - Result bar is diplayed. There were results!
+13:41:01.219 [TestNG-tests-4] INFO  E2EFrameworkSample.samplePOMProject.SearchWithResultsTest - Search field is populated with text
+13:41:05.693 [TestNG-tests-4] INFO  E2EFrameworkSample.samplePOMProject.SearchWithResultsTest - Result bar is displayed. There were results!
+13:41:05.843 [TestNG-tests-5] INFO  E2EFrameworkSample.samplePOMProject.LoginTest - Password is provided
+13:41:08.035 [TestNG-tests-1] INFO  E2EFrameworkSample.samplePOMProject.LoginTest - Email is provided
+13:41:15.623 [TestNG-tests-1] INFO  E2EFrameworkSample.samplePOMProject.LoginTest - Password is provided
+13:41:16.906 [TestNG-tests-4] INFO  E2EFrameworkSample.samplePOMProject.SearchWithResultsTest - Navigated to item details
+13:41:21.408 [TestNG-tests-5] INFO  E2EFrameworkSample.samplePOMProject.LoginTest - Email is provided
+13:41:24.770 [TestNG-tests-5] INFO  E2EFrameworkSample.samplePOMProject.LoginTest - Password is provided
+13:41:29.136 [TestNG-tests-1] INFO  E2EFrameworkSample.samplePOMProject.LoginTest - Email is provided
+13:41:31.993 [TestNG-tests-1] INFO  E2EFrameworkSample.samplePOMProject.LoginTest - Password is provided
+13:44:58.116 [main] INFO  E2EFrameworkSample.samplePOMProject.LoginTest - Navigated to url
+13:45:05.058 [main] INFO  E2EFrameworkSample.samplePOMProject.LoginTest - Email is provided
+13:45:07.226 [main] INFO  E2EFrameworkSample.samplePOMProject.LoginTest - Password is provided
+18:54:58.568 [main] INFO  E2EFrameworkSample.samplePOMProject.RestAssuredTest - Response has been printed!

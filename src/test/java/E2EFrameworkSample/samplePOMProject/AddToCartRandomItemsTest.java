@@ -37,7 +37,7 @@ public class AddToCartRandomItemsTest extends Base{
 	
 	
 	@Test
-	public void addToCart() {
+	public void addToCart() throws InterruptedException {
 		
 		
 		HomePage hp = new HomePage(driver);
@@ -49,6 +49,7 @@ public class AddToCartRandomItemsTest extends Base{
 		mmrp.addToCartRandomItem();
 		
 		ItemDetailsPage idp = new ItemDetailsPage(driver);
+		Thread.sleep(1000);
 		idp.addToCartButton().click();		
 		
 		CartPageBeforeCheckout cp = new CartPageBeforeCheckout(driver);
