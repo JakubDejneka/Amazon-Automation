@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="E2EFrameworkSample.samplePOMProject.RestAssuredTest">
+      <class name="E2EFrameworkSample.samplePOMProject.RestAssuredParametrizedTest">
         <methods>
-          <include name="exampleDeleteRequest"/>
+          <include name="examplePostUsingJsonSimpleLibrary"/>
         </methods>
-      </class> <!-- E2EFrameworkSample.samplePOMProject.RestAssuredTest -->
+      </class> <!-- E2EFrameworkSample.samplePOMProject.RestAssuredParametrizedTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -59,13 +59,14 @@ public class LoginTest extends Base{
 	
 	@DataProvider(name="SearchProvider")
     public Object[][] getDataFromDataprovider(){
+		
     return new Object[][] 
     	{
     		{ "jakub_test@mail2paste.com", "secretPassword!" },
             { "jakub_test2@ofmailer.net", "secretPassword2!"}
           
         };
-	}
+	} 
 		
 	
 	@AfterTest

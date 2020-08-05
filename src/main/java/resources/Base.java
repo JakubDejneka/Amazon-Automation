@@ -12,6 +12,7 @@ import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
+import org.testng.annotations.DataProvider;
 
 public class Base {
 	
@@ -54,6 +55,20 @@ public class Base {
 		String destinationFile = System.getProperty("user.dir")+"\\reports\\"+ testCaseName +".png";
 		FileUtils.copyFile(source, new File(destinationFile));
 		return destinationFile;
+	}
+	
+	
+	//data provider for RestAssuredParametrizedTest test
+	@DataProvider(name = "DataForPost")
+	public  Object[][] dataForPost() {
+		
+		return new Object[][] {
+			
+			//test data
+			{"Jakub","Automation Tester"},
+			{"Adam","Java Developer"}
+						
+		};
 	}
 
 	

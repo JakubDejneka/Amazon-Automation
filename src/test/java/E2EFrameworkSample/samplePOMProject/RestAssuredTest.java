@@ -112,7 +112,6 @@ public class RestAssuredTest extends Base{
 	
 	//@Test
 	public void examplePatchRequest() {
-
 		
 		JSONObject request2 = new JSONObject();			
 		request2.put("name", "Jakub");
@@ -126,7 +125,7 @@ public class RestAssuredTest extends Base{
 		accept(ContentType.JSON).
 			body(request2.toJSONString()).
 		when().
-			patch("https://reqres.in/api/users2").
+			patch("https://reqres.in/api/users2").  
 		then().
 		statusCode(200).log().all();		
 				
