@@ -132,7 +132,7 @@ public class RestAssuredTest extends Base{
 	}
 	
 	
-	@Test
+	//@Test
 		public void exampleDeleteRequest() {
 
 			

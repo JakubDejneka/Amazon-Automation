@@ -1,45 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-08-05T23:24:10 CEST" name="Default suite" finished-at="2020-08-05T23:24:16 CEST" duration-ms="5984">
+  <suite started-at="2020-08-06T22:13:53 CEST" name="Default suite" finished-at="2020-08-06T22:13:53 CEST" duration-ms="740">
     <groups>
     </groups>
-    <test started-at="2020-08-05T23:24:10 CEST" name="Default test" finished-at="2020-08-05T23:24:16 CEST" duration-ms="5984">
-      <class name="E2EFrameworkSample.samplePOMProject.RestAssuredParametrizedTest">
-        <test-method signature="examplePostUsingJsonSimpleLibrary(java.lang.String, java.lang.String)[pri:0, instance:E2EFrameworkSample.samplePOMProject.RestAssuredParametrizedTest@3d484181]" started-at="2020-08-05T23:24:10 CEST" name="examplePostUsingJsonSimpleLibrary" data-provider="DataForPost" finished-at="2020-08-05T23:24:16 CEST" duration-ms="5558" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Jakub]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Automation Tester]]>
-              </value>
-            </param>
-          </params>
+    <test started-at="2020-08-06T22:13:53 CEST" name="Default test" finished-at="2020-08-06T22:13:53 CEST" duration-ms="740">
+      <class name="E2EFrameworkSample.samplePOMProject.ExampleDataDrivenTest">
+        <test-method signature="displayExcelDataFromFirstColumn()[pri:0, instance:E2EFrameworkSample.samplePOMProject.ExampleDataDrivenTest@19d481b]" started-at="2020-08-06T22:13:53 CEST" name="displayExcelDataFromFirstColumn" finished-at="2020-08-06T22:13:53 CEST" duration-ms="678" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- examplePostUsingJsonSimpleLibrary -->
-        <test-method signature="examplePostUsingJsonSimpleLibrary(java.lang.String, java.lang.String)[pri:0, instance:E2EFrameworkSample.samplePOMProject.RestAssuredParametrizedTest@3d484181]" started-at="2020-08-05T23:24:16 CEST" name="examplePostUsingJsonSimpleLibrary" data-provider="DataForPost" finished-at="2020-08-05T23:24:16 CEST" duration-ms="320" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Adam]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Java Developer]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- examplePostUsingJsonSimpleLibrary -->
-      </class> <!-- E2EFrameworkSample.samplePOMProject.RestAssuredParametrizedTest -->
+        </test-method> <!-- displayExcelDataFromFirstColumn -->
+      </class> <!-- E2EFrameworkSample.samplePOMProject.ExampleDataDrivenTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

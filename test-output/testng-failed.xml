@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="E2EFrameworkSample.samplePOMProject.RestAssuredParametrizedTest">
+      <class name="E2EFrameworkSample.samplePOMProject.ExampleDataDrivenTest">
         <methods>
-          <include name="examplePostUsingJsonSimpleLibrary"/>
+          <include name="displayExcelPath"/>
         </methods>
-      </class> <!-- E2EFrameworkSample.samplePOMProject.RestAssuredParametrizedTest -->
+      </class> <!-- E2EFrameworkSample.samplePOMProject.ExampleDataDrivenTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -4,17 +4,6 @@
   <listeners>
     <listener class-name="E2EFrameworkSample.samplePOMProject.Listeners"/>
   </listeners>
-  <test thread-count="5" parallel="tests" name="Test5(failed)">
-    <classes>
-      <class name="E2EFrameworkSample.samplePOMProject.LoginTest">
-        <methods>
-          <include name="login" invocation-numbers="1"/>
-          <include name="tearDown"/>
-          <include name="setUp"/>
-        </methods>
-      </class> <!-- E2EFrameworkSample.samplePOMProject.LoginTest -->
-    </classes>
-  </test> <!-- Test5(failed) -->
   <test thread-count="5" parallel="tests" name="Test(failed)">
     <classes>
       <class name="E2EFrameworkSample.samplePOMProject.LoginTest">
@@ -26,4 +15,15 @@
       </class> <!-- E2EFrameworkSample.samplePOMProject.LoginTest -->
     </classes>
   </test> <!-- Test(failed) -->
+  <test thread-count="5" parallel="tests" name="Test4(failed)">
+    <classes>
+      <class name="E2EFrameworkSample.samplePOMProject.AddToCartRandomItemsTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="addToCart"/>
+        </methods>
+      </class> <!-- E2EFrameworkSample.samplePOMProject.AddToCartRandomItemsTest -->
+    </classes>
+  </test> <!-- Test4(failed) -->
 </suite> <!-- Failed suite [Suite] -->
