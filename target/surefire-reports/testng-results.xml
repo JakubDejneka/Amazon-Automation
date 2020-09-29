@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="3" failed="1" skipped="0">
+<testng-results ignored="0" total="7" passed="6" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-07-31T12:15:08 CEST" name="Suite" finished-at="2020-07-31T12:16:04 CEST" duration-ms="55850">
+  <suite started-at="2020-08-07T20:07:44 CEST" name="Suite" finished-at="2020-08-07T20:08:48 CEST" duration-ms="63915">
     <groups>
     </groups>
-    <test started-at="2020-07-31T12:15:08 CEST" name="Test5" finished-at="2020-07-31T12:15:54 CEST" duration-ms="45642">
+    <test started-at="2020-08-07T20:07:44 CEST" name="Test5" finished-at="2020-08-07T20:08:18 CEST" duration-ms="33303">
       <class name="E2EFrameworkSample.samplePOMProject.LoginTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:E2EFrameworkSample.samplePOMProject.LoginTest@6326d182]" started-at="2020-07-31T12:15:08 CEST" name="setUp" finished-at="2020-07-31T12:15:15 CEST" duration-ms="6608" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:E2EFrameworkSample.samplePOMProject.LoginTest@26fb628]" started-at="2020-08-07T20:07:44 CEST" name="setUp" finished-at="2020-08-07T20:07:51 CEST" duration-ms="7195" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="login(java.lang.String, java.lang.String)[pri:0, instance:E2EFrameworkSample.samplePOMProject.LoginTest@6326d182]" started-at="2020-07-31T12:15:15 CEST" name="login" data-provider="SearchProvider" finished-at="2020-07-31T12:15:32 CEST" duration-ms="17427" status="PASS">
+        <test-method signature="login(java.lang.String, java.lang.String)[pri:0, instance:E2EFrameworkSample.samplePOMProject.LoginTest@26fb628]" started-at="2020-08-07T20:07:51 CEST" name="login" data-provider="SearchProvider" finished-at="2020-08-07T20:08:08 CEST" duration-ms="16191" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -27,7 +27,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method signature="login(java.lang.String, java.lang.String)[pri:0, instance:E2EFrameworkSample.samplePOMProject.LoginTest@6326d182]" started-at="2020-07-31T12:15:32 CEST" name="login" data-provider="SearchProvider" finished-at="2020-07-31T12:15:53 CEST" duration-ms="20794" status="FAIL">
+        <test-method signature="login(java.lang.String, java.lang.String)[pri:0, instance:E2EFrameworkSample.samplePOMProject.LoginTest@26fb628]" started-at="2020-08-07T20:08:08 CEST" name="login" data-provider="SearchProvider" finished-at="2020-08-07T20:08:16 CEST" duration-ms="8399" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -40,28 +40,116 @@
               </value>
             </param>
           </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:E2EFrameworkSample.samplePOMProject.LoginTest@26fb628]" started-at="2020-08-07T20:08:16 CEST" name="tearDown" finished-at="2020-08-07T20:08:18 CEST" duration-ms="1471" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- E2EFrameworkSample.samplePOMProject.LoginTest -->
+    </test> <!-- Test5 -->
+    <test started-at="2020-08-07T20:07:44 CEST" name="Test" finished-at="2020-08-07T20:08:24 CEST" duration-ms="40270">
+      <class name="E2EFrameworkSample.samplePOMProject.HomePageTitleTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:E2EFrameworkSample.samplePOMProject.HomePageTitleTest@319988b0]" started-at="2020-08-07T20:07:44 CEST" name="setUp" finished-at="2020-08-07T20:07:55 CEST" duration-ms="10701" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="getTitle()[pri:0, instance:E2EFrameworkSample.samplePOMProject.HomePageTitleTest@319988b0]" started-at="2020-08-07T20:08:03 CEST" name="getTitle" finished-at="2020-08-07T20:08:03 CEST" duration-ms="235" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTitle -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:E2EFrameworkSample.samplePOMProject.HomePageTitleTest@319988b0]" started-at="2020-08-07T20:08:20 CEST" name="tearDown" finished-at="2020-08-07T20:08:24 CEST" duration-ms="4333" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- E2EFrameworkSample.samplePOMProject.HomePageTitleTest -->
+      <class name="E2EFrameworkSample.samplePOMProject.LoginTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:E2EFrameworkSample.samplePOMProject.LoginTest@d5ae57e]" started-at="2020-08-07T20:07:55 CEST" name="setUp" finished-at="2020-08-07T20:08:03 CEST" duration-ms="8192" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="login(java.lang.String, java.lang.String)[pri:0, instance:E2EFrameworkSample.samplePOMProject.LoginTest@d5ae57e]" started-at="2020-08-07T20:08:03 CEST" name="login" data-provider="SearchProvider" finished-at="2020-08-07T20:08:15 CEST" duration-ms="11495" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[jakub_test@mail2paste.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secretPassword!]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="login(java.lang.String, java.lang.String)[pri:0, instance:E2EFrameworkSample.samplePOMProject.LoginTest@d5ae57e]" started-at="2020-08-07T20:08:15 CEST" name="login" data-provider="SearchProvider" finished-at="2020-08-07T20:08:20 CEST" duration-ms="5134" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[jakub_test2@ofmailer.net]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secretPassword2!]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:E2EFrameworkSample.samplePOMProject.LoginTest@d5ae57e]" started-at="2020-08-07T20:08:24 CEST" name="tearDown" finished-at="2020-08-07T20:08:24 CEST" duration-ms="153" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- E2EFrameworkSample.samplePOMProject.LoginTest -->
+    </test> <!-- Test -->
+    <test started-at="2020-08-07T20:07:44 CEST" name="Test4" finished-at="2020-08-07T20:08:48 CEST" duration-ms="63915">
+      <class name="E2EFrameworkSample.samplePOMProject.SearchWithResultsTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:E2EFrameworkSample.samplePOMProject.SearchWithResultsTest@4215838f]" started-at="2020-08-07T20:07:56 CEST" name="setUp" finished-at="2020-08-07T20:08:08 CEST" duration-ms="12285" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="successfullSearch()[pri:0, instance:E2EFrameworkSample.samplePOMProject.SearchWithResultsTest@4215838f]" started-at="2020-08-07T20:08:08 CEST" name="successfullSearch" finished-at="2020-08-07T20:08:20 CEST" duration-ms="12355" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- successfullSearch -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:E2EFrameworkSample.samplePOMProject.SearchWithResultsTest@4215838f]" started-at="2020-08-07T20:08:44 CEST" name="tearDown" finished-at="2020-08-07T20:08:48 CEST" duration-ms="4328" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- E2EFrameworkSample.samplePOMProject.SearchWithResultsTest -->
+      <class name="E2EFrameworkSample.samplePOMProject.AddToCartRandomItemsTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:E2EFrameworkSample.samplePOMProject.AddToCartRandomItemsTest@452ba1db]" started-at="2020-08-07T20:07:44 CEST" name="setUp" finished-at="2020-08-07T20:07:56 CEST" duration-ms="11314" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="addToCart()[pri:0, instance:E2EFrameworkSample.samplePOMProject.AddToCartRandomItemsTest@452ba1db]" started-at="2020-08-07T20:08:20 CEST" name="addToCart" finished-at="2020-08-07T20:08:39 CEST" duration-ms="18930" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//h1[contains(text(),'Authentication required')]"}
-  (Session info: chrome=84.0.4147.89)
+              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"#hlb\-view\-cart\-announce"}
+  (Session info: chrome=84.0.4147.105)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'DESKTOP-T1HO9OQ', ip: '192.168.0.19', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.6'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.89, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\Jacob\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52239}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 3a6f7ecca6b9b88626f3ac90e44a02f1
-*** Element info: {Using=xpath, value=//h1[contains(text(),'Authentication required')]}]]>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.105, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\Jacob\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58468}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: de42a77e22bdfd6a90f2cf9daaf7f76d
+*** Element info: {Using=id, value=hlb-view-cart-announce}]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//h1[contains(text(),'Authentication required')]"}
-  (Session info: chrome=84.0.4147.89)
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#hlb\-view\-cart\-announce"}
+  (Session info: chrome=84.0.4147.105)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'DESKTOP-T1HO9OQ', ip: '192.168.0.19', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.6'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.89, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\Jacob\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52239}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 3a6f7ecca6b9b88626f3ac90e44a02f1
-*** Element info: {Using=xpath, value=//h1[contains(text(),'Authentication required')]}
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.105, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\Jacob\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58468}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: de42a77e22bdfd6a90f2cf9daaf7f76d
+*** Element info: {Using=id, value=hlb-view-cart-announce}
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -73,13 +161,13 @@ at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.ja
 at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
+at org.openqa.selenium.By$ById.findElement(By.java:188)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
 at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
 at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at com.sun.proxy.$Proxy26.getText(Unknown Source)
-at E2EFrameworkSample.samplePOMProject.LoginTest.login(LoginTest.java:56)
+at com.sun.proxy.$Proxy26.click(Unknown Source)
+at E2EFrameworkSample.samplePOMProject.AddToCartRandomItemsTest.addToCart(AddToCartRandomItemsTest.java:56)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -108,38 +196,8 @@ at java.base/java.lang.Thread.run(Thread.java:834)
           </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- login -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:E2EFrameworkSample.samplePOMProject.LoginTest@6326d182]" started-at="2020-07-31T12:15:54 CEST" name="tearDown" finished-at="2020-07-31T12:15:54 CEST" duration-ms="228" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- E2EFrameworkSample.samplePOMProject.LoginTest -->
-    </test> <!-- Test5 -->
-    <test started-at="2020-07-31T12:15:08 CEST" name="Test4" finished-at="2020-07-31T12:16:04 CEST" duration-ms="55850">
-      <class name="E2EFrameworkSample.samplePOMProject.SearchWithResultsTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:E2EFrameworkSample.samplePOMProject.SearchWithResultsTest@4c168660]" started-at="2020-07-31T12:15:20 CEST" name="setUp" finished-at="2020-07-31T12:15:34 CEST" duration-ms="13520" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="successfullSearch()[pri:0, instance:E2EFrameworkSample.samplePOMProject.SearchWithResultsTest@4c168660]" started-at="2020-07-31T12:15:34 CEST" name="successfullSearch" finished-at="2020-07-31T12:15:46 CEST" duration-ms="11812" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- successfullSearch -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:E2EFrameworkSample.samplePOMProject.SearchWithResultsTest@4c168660]" started-at="2020-07-31T12:16:00 CEST" name="tearDown" finished-at="2020-07-31T12:16:04 CEST" duration-ms="4336" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- E2EFrameworkSample.samplePOMProject.SearchWithResultsTest -->
-      <class name="E2EFrameworkSample.samplePOMProject.AddToCartRandomItemsTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:E2EFrameworkSample.samplePOMProject.AddToCartRandomItemsTest@52b56a3e]" started-at="2020-07-31T12:15:08 CEST" name="setUp" finished-at="2020-07-31T12:15:20 CEST" duration-ms="12325" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="addToCart()[pri:0, instance:E2EFrameworkSample.samplePOMProject.AddToCartRandomItemsTest@52b56a3e]" started-at="2020-07-31T12:15:46 CEST" name="addToCart" finished-at="2020-07-31T12:15:55 CEST" duration-ms="9521" status="PASS">
-          <reporter-output>
-          </reporter-output>
         </test-method> <!-- addToCart -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:E2EFrameworkSample.samplePOMProject.AddToCartRandomItemsTest@52b56a3e]" started-at="2020-07-31T12:15:55 CEST" name="tearDown" finished-at="2020-07-31T12:16:00 CEST" duration-ms="4324" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:E2EFrameworkSample.samplePOMProject.AddToCartRandomItemsTest@452ba1db]" started-at="2020-08-07T20:08:40 CEST" name="tearDown" finished-at="2020-08-07T20:08:44 CEST" duration-ms="4104" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

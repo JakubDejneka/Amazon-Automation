@@ -52,8 +52,8 @@ public class AddToListTest extends Base{
 				try{		
 				//enter word to search in link 
 				srp.wordToSearchInLink("Freedom from the Known");
-				WebDriverWait wait = new WebDriverWait(driver, 2);
-				wait.until(ExpectedConditions.elementToBeClickable(srp.addToList()));
+//				WebDriverWait wait = new WebDriverWait(driver, 2);
+//				wait.until(ExpectedConditions.elementToBeClickable(srp.addToList()));
 				
 				//add to list
 				srp.addToList().click();

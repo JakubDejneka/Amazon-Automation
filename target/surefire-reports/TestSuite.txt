@@ -1,29 +1,17 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 9, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 57.074 s <<< FAILURE! - in TestSuite
-tearDown(E2EFrameworkSample.samplePOMProject.LoginTest)  Time elapsed: 6.681 s  <<< FAILURE!
-org.openqa.selenium.NoSuchWindowException: 
-no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=84.0.4147.89)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-T1HO9OQ', ip: '192.168.0.19', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.6'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.89, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\Jacob\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52694}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: c8e87e53aad0cca3fc5737112defa78e
-	at E2EFrameworkSample.samplePOMProject.LoginTest.tearDown(LoginTest.java:74)
-
-login(E2EFrameworkSample.samplePOMProject.LoginTest)  Time elapsed: 7.739 s  <<< FAILURE!
+Tests run: 9, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 65.151 s <<< FAILURE! - in TestSuite
+addToCart(E2EFrameworkSample.samplePOMProject.AddToCartRandomItemsTest)  Time elapsed: 18.937 s  <<< FAILURE!
 org.openqa.selenium.NoSuchElementException: 
-no such element: Unable to locate element: {"method":"xpath","selector":"//h1[contains(text(),'Authentication required')]"}
-  (Session info: chrome=84.0.4147.89)
+no such element: Unable to locate element: {"method":"css selector","selector":"#hlb\-view\-cart\-announce"}
+  (Session info: chrome=84.0.4147.105)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'DESKTOP-T1HO9OQ', ip: '192.168.0.19', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.6'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.89, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\Jacob\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52239}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 3a6f7ecca6b9b88626f3ac90e44a02f1
-*** Element info: {Using=xpath, value=//h1[contains(text(),'Authentication required')]}
-	at E2EFrameworkSample.samplePOMProject.LoginTest.login(LoginTest.java:56)
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.105, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\Jacob\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58468}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: de42a77e22bdfd6a90f2cf9daaf7f76d
+*** Element info: {Using=id, value=hlb-view-cart-announce}
+	at E2EFrameworkSample.samplePOMProject.AddToCartRandomItemsTest.addToCart(AddToCartRandomItemsTest.java:56)
 

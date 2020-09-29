@@ -24,7 +24,7 @@ public class RestAssuredTest extends Base{
 	
 	public static Logger log = LogManager.getLogger(RestAssuredTest.class.getName());
 	
-	//@Test
+	@Test
 	public void simpleGet() {
 		
 		Response response = get("https://reqres.in/api/users?page=2");		

@@ -36,8 +36,8 @@ public class LoginTest extends Base{
 		HomePage hp = new HomePage(driver);
 		hp.hoverOverloginDropdown();
 		
-		WebDriverWait wait = new WebDriverWait(driver, 2);
-		wait.until(ExpectedConditions.elementToBeClickable(hp.signInButton()));
+//		WebDriverWait wait = new WebDriverWait(driver, 2);
+//		wait.until(ExpectedConditions.elementToBeClickable(hp.signInButton()));
 		hp.signInButton().click();		
 		
 		LoginPage lp = new LoginPage(driver);

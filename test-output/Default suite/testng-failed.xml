@@ -5,7 +5,7 @@
     <classes>
       <class name="E2EFrameworkSample.samplePOMProject.ExampleDataDrivenTest">
         <methods>
-          <include name="displayExcelPath"/>
+          <include name="displayAllDataFromExcell"/>
         </methods>
       </class> <!-- E2EFrameworkSample.samplePOMProject.ExampleDataDrivenTest -->
     </classes>

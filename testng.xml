@@ -12,35 +12,42 @@
      </classes>
    </test>   
       
-      <test name = "Test2">
-      <classes>
-      <class name="E2EFrameworkSample.samplePOMProject.SearchWithNoResultsTest"/>
-       </classes>
-      </test>
-      
-      <test name = "Test3">
-      <classes>
-       <class name="E2EFrameworkSample.samplePOMProject.AddToListTest"/>
-         <class name="E2EFrameworkSample.samplePOMProject.AppTest"/>
-       </classes>
-      </test>
-      
-      <test name = "Test4">
-      <classes>
-       <class name="E2EFrameworkSample.samplePOMProject.SearchWithResultsTest"/>
-       <class name="E2EFrameworkSample.samplePOMProject.AddToCartRandomItemsTest"/>
-       
-       </classes>
-      </test>
-      
-      
-      
-     <test name = "Test5">
-      <classes>
-     <class name="E2EFrameworkSample.samplePOMProject.LoginTest"/>
-     <class name="E2EFrameworkSample.samplePOMProject.LoginTest"/>
-       </classes>
-      </test>
+<!--      <test name = "Test2">-->
+<!--      <classes>-->
+<!--      <class name="E2EFrameworkSample.samplePOMProject.SearchWithNoResultsTest"/>-->
+<!--       </classes>-->
+<!--      </test>-->
+<!--      -->
+<!--      <test name = "Test3">-->
+<!--      <classes>-->
+<!--       <class name="E2EFrameworkSample.samplePOMProject.AddToListTest"/>-->
+<!--         <class name="E2EFrameworkSample.samplePOMProject.AppTest"/>-->
+<!--       </classes>-->
+<!--      </test>-->
+<!--      -->
+<!--      <test name = "Test4">-->
+<!--      <classes>-->
+<!--       <class name="E2EFrameworkSample.samplePOMProject.SearchWithResultsTest"/>-->
+<!--       <class name="E2EFrameworkSample.samplePOMProject.AddToCartRandomItemsTest"/>-->
+<!--       -->
+<!--       </classes>-->
+<!--      </test>-->
+<!--      -->
+<!--      -->
+<!--      -->
+<!--     <test name = "Test5">-->
+<!--      <classes>-->
+<!--     <class name="E2EFrameworkSample.samplePOMProject.LoginTest"/>-->
+<!--     <class name="E2EFrameworkSample.samplePOMProject.LoginTest"/>-->
+<!--       </classes>-->
+<!--      </test>-->
+<!--      -->
+<!--      <test name = "Test6 rest assured">-->
+<!--      <classes>-->
+<!--     <class name="E2EFrameworkSample.samplePOMProject.RestAssuredTest"/>-->
+<!--     <class name="E2EFrameworkSample.samplePOMProject.RestAssuredParametrizedTest"/>-->
+<!--       </classes>-->
+<!--      </test>-->
     
      
      

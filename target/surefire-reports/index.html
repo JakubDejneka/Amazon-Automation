@@ -91,7 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">4 methods, 1 failed,   3 passed</span>
+                    <span class="method-stats">7 methods, 1 failed,   6 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title failed">Failed methods</span>
@@ -102,7 +102,7 @@
                     <div class="method-list-content failed suite-Suite">
                       <span>
                         <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="E2EFrameworkSample.samplePOMProject.LoginTest" class="method navigator-link" hash-for-method="login(jakub_test2@ofmailer.net, secretPassword2!)">login(jakub_test2@ofmailer.net, secretPassword2!)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="E2EFrameworkSample.samplePOMProject.AddToCartRandomItemsTest" class="method navigator-link" hash-for-method="addToCart">addToCart</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content failed suite-Suite -->
@@ -116,12 +116,27 @@
                     <div class="method-list-content passed suite-Suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="E2EFrameworkSample.samplePOMProject.AddToCartRandomItemsTest" class="method navigator-link" hash-for-method="addToCart">addToCart</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="E2EFrameworkSample.samplePOMProject.HomePageTitleTest" class="method navigator-link" hash-for-method="getTitle">getTitle</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="E2EFrameworkSample.samplePOMProject.LoginTest" class="method navigator-link" hash-for-method="login(jakub_test@mail2paste.com, secretPassword!)">login(jakub_test@mail2paste.com, secretPassword!)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="E2EFrameworkSample.samplePOMProject.LoginTest" class="method navigator-link" hash-for-method="login(jakub_test2@ofmailer.net, secretPassword2!)">login(jakub_test2@ofmailer.net, secretPassword2!)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="E2EFrameworkSample.samplePOMProject.LoginTest" class="method navigator-link" hash-for-method="login(jakub_test@mail2paste.com, secretPassword!)">login(jakub_test@mail2paste.com, secretPassword!)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="E2EFrameworkSample.samplePOMProject.LoginTest" class="method navigator-link" hash-for-method="login(jakub_test2@ofmailer.net, secretPassword2!)">login(jakub_test2@ofmailer.net, secretPassword2!)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -144,24 +159,23 @@
           <div class="suite-Suite-class-failed">
             <div class="main-panel-header rounded-window-top">
               <img src="failed.png"/>
-              <span class="class-name">E2EFrameworkSample.samplePOMProject.LoginTest</span>
+              <span class="class-name">E2EFrameworkSample.samplePOMProject.AddToCartRandomItemsTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="login(jakub_test2@ofmailer.net, secretPassword2!)">
-                  </a> <!-- login(jakub_test2@ofmailer.net, secretPassword2!) -->
-                  <span class="method-name">login</span>
-                  <span class="parameters">(jakub_test2@ofmailer.net, secretPassword2!)</span>
-                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//h1[contains(text(),&apos;Authentication required&apos;)]&quot;}
-  (Session info: chrome=84.0.4147.89)
+                  <a name="addToCart">
+                  </a> <!-- addToCart -->
+                  <span class="method-name">addToCart</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#hlb\-view\-cart\-announce&quot;}
+  (Session info: chrome=84.0.4147.105)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
 System info: host: &apos;DESKTOP-T1HO9OQ&apos;, ip: &apos;192.168.0.19&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.6&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.89, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\Jacob\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52239}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 3a6f7ecca6b9b88626f3ac90e44a02f1
-*** Element info: {Using=xpath, value=//h1[contains(text(),&apos;Authentication required&apos;)]}
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.105, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\Jacob\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58468}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: de42a77e22bdfd6a90f2cf9daaf7f76d
+*** Element info: {Using=id, value=hlb-view-cart-announce}
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
@@ -169,13 +183,13 @@ Session ID: 3a6f7ecca6b9b88626f3ac90e44a02f1
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
+	at org.openqa.selenium.By$ById.findElement(By.java:188)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
 	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy26.getText(Unknown Source)
-	at E2EFrameworkSample.samplePOMProject.LoginTest.login(LoginTest.java:56)
+	at com.sun.proxy.$Proxy26.click(Unknown Source)
+	at E2EFrameworkSample.samplePOMProject.AddToCartRandomItemsTest.addToCart(AddToCartRandomItemsTest.java:56)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
@@ -205,21 +219,6 @@ Session ID: 3a6f7ecca6b9b88626f3ac90e44a02f1
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">E2EFrameworkSample.samplePOMProject.AddToCartRandomItemsTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="addToCart">
-                  </a> <!-- addToCart -->
-                  <span class="method-name">addToCart</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-passed -->
-          <div class="suite-Suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
               <span class="class-name">E2EFrameworkSample.samplePOMProject.LoginTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -229,6 +228,45 @@ Session ID: 3a6f7ecca6b9b88626f3ac90e44a02f1
                   </a> <!-- login(jakub_test@mail2paste.com, secretPassword!) -->
                   <span class="method-name">login</span>
                   <span class="parameters">(jakub_test@mail2paste.com, secretPassword!)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="login(jakub_test2@ofmailer.net, secretPassword2!)">
+                  </a> <!-- login(jakub_test2@ofmailer.net, secretPassword2!) -->
+                  <span class="method-name">login</span>
+                  <span class="parameters">(jakub_test2@ofmailer.net, secretPassword2!)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="login(jakub_test@mail2paste.com, secretPassword!)">
+                  </a> <!-- login(jakub_test@mail2paste.com, secretPassword!) -->
+                  <span class="method-name">login</span>
+                  <span class="parameters">(jakub_test@mail2paste.com, secretPassword!)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="login(jakub_test2@ofmailer.net, secretPassword2!)">
+                  </a> <!-- login(jakub_test2@ofmailer.net, secretPassword2!) -->
+                  <span class="method-name">login</span>
+                  <span class="parameters">(jakub_test2@ofmailer.net, secretPassword2!)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">E2EFrameworkSample.samplePOMProject.HomePageTitleTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="getTitle">
+                  </a> <!-- getTitle -->
+                  <span class="method-name">getTitle</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -324,28 +362,40 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(4);
+data.addRows(7);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'login')
-data.setCell(0, 2, 'E2EFrameworkSample.samplePOMProject.LoginTest')
-data.setCell(0, 3, 20794);
+data.setCell(0, 1, 'addToCart')
+data.setCell(0, 2, 'E2EFrameworkSample.samplePOMProject.AddToCartRandomItemsTest')
+data.setCell(0, 3, 18930);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'login')
 data.setCell(1, 2, 'E2EFrameworkSample.samplePOMProject.LoginTest')
-data.setCell(1, 3, 17427);
+data.setCell(1, 3, 16191);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'successfullSearch')
 data.setCell(2, 2, 'E2EFrameworkSample.samplePOMProject.SearchWithResultsTest')
-data.setCell(2, 3, 11812);
+data.setCell(2, 3, 12355);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'addToCart')
-data.setCell(3, 2, 'E2EFrameworkSample.samplePOMProject.AddToCartRandomItemsTest')
-data.setCell(3, 3, 9521);
+data.setCell(3, 1, 'login')
+data.setCell(3, 2, 'E2EFrameworkSample.samplePOMProject.LoginTest')
+data.setCell(3, 3, 11495);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'login')
+data.setCell(4, 2, 'E2EFrameworkSample.samplePOMProject.LoginTest')
+data.setCell(4, 3, 8399);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'login')
+data.setCell(5, 2, 'E2EFrameworkSample.samplePOMProject.LoginTest')
+data.setCell(5, 3, 5134);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'getTitle')
+data.setCell(6, 2, 'E2EFrameworkSample.samplePOMProject.HomePageTitleTest')
+data.setCell(6, 3, 235);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 55 seconds</span>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -371,13 +421,6 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">E2EFrameworkSample.samplePOMProject.HomePageTitleTest</div> <!-- chronological-class-name -->
-              <div class="configuration-test before">
-                <span class="method-name">setUp</span>
-                <span class="method-start">0 ms</span>
-              </div> <!-- configuration-test before -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
               <div class="chronological-class-name">E2EFrameworkSample.samplePOMProject.AddToCartRandomItemsTest</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
                 <span class="method-name">setUp</span>
@@ -385,7 +428,7 @@ return data;
               </div> <!-- configuration-test before -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
-              <div class="chronological-class-name">E2EFrameworkSample.samplePOMProject.SearchWithNoResultsTest</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">E2EFrameworkSample.samplePOMProject.HomePageTitleTest</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
                 <span class="method-name">setUp</span>
                 <span class="method-start">0 ms</span>
@@ -406,129 +449,135 @@ return data;
               </div> <!-- configuration-test before -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
+              <div class="chronological-class-name">E2EFrameworkSample.samplePOMProject.SearchWithNoResultsTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
               <div class="chronological-class-name">E2EFrameworkSample.samplePOMProject.LoginTest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">login(jakub_test@mail2paste.com, secretPassword!)</span>
-                <span class="method-start">6631 ms</span>
+                <span class="method-start">7230 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">E2EFrameworkSample.samplePOMProject.SearchWithNoResultsTest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">unsuccessfullSearch</span>
-                <span class="method-start">10828 ms</span>
+                <span class="method-start">10114 ms</span>
               </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">E2EFrameworkSample.samplePOMProject.AddToListTest</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <span class="method-name">addToList</span>
-                <span class="method-start">11374 ms</span>
-              </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">E2EFrameworkSample.samplePOMProject.SearchWithResultsTest</div> <!-- chronological-class-name -->
-              <div class="configuration-test before">
-                <span class="method-name">setUp</span>
-                <span class="method-start">12326 ms</span>
-              </div> <!-- configuration-test before -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">E2EFrameworkSample.samplePOMProject.LoginTest</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">13530 ms</span>
+                <span class="method-start">10701 ms</span>
               </div> <!-- configuration-test before -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
-              <div class="chronological-class-name">E2EFrameworkSample.samplePOMProject.SearchWithNoResultsTest</div> <!-- chronological-class-name -->
-              <div class="configuration-test after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">22576 ms</span>
-              </div> <!-- configuration-test after -->
+              <div class="chronological-class-name">E2EFrameworkSample.samplePOMProject.SearchWithResultsTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">11314 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">E2EFrameworkSample.samplePOMProject.AddToListTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">addToList</span>
+                <span class="method-start">12051 ms</span>
+              </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">E2EFrameworkSample.samplePOMProject.HomePageTitleTest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">getTitle</span>
-                <span class="method-start">23561 ms</span>
+                <span class="method-start">18894 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">E2EFrameworkSample.samplePOMProject.LoginTest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">login(jakub_test@mail2paste.com, secretPassword!)</span>
-                <span class="method-start">23660 ms</span>
+                <span class="method-start">19141 ms</span>
               </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">E2EFrameworkSample.samplePOMProject.SearchWithNoResultsTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">22001 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">E2EFrameworkSample.samplePOMProject.LoginTest</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">login(jakub_test2@ofmailer.net, secretPassword2!)</span>
-                <span class="method-start">24059 ms</span>
+                <span class="method-start">23422 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">E2EFrameworkSample.samplePOMProject.SearchWithResultsTest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">successfullSearch</span>
-                <span class="method-start">25848 ms</span>
+                <span class="method-start">23600 ms</span>
               </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">E2EFrameworkSample.samplePOMProject.LoginTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">login(jakub_test2@ofmailer.net, secretPassword2!)</span>
+                <span class="method-start">30638 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">31822 ms</span>
+              </div> <!-- configuration-test after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">E2EFrameworkSample.samplePOMProject.AddToListTest</div> <!-- chronological-class-name -->
               <div class="configuration-test after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">31421 ms</span>
+                <span class="method-start">31859 ms</span>
               </div> <!-- configuration-test after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">E2EFrameworkSample.samplePOMProject.LoginTest</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">login(jakub_test2@ofmailer.net, secretPassword2!)</span>
-                <span class="method-start">34883 ms</span>
-              </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">E2EFrameworkSample.samplePOMProject.AddToCartRandomItemsTest</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <span class="method-name">addToCart</span>
-                <span class="method-start">37662 ms</span>
-              </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">E2EFrameworkSample.samplePOMProject.HomePageTitleTest</div> <!-- chronological-class-name -->
               <div class="configuration-test after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">44039 ms</span>
+                <span class="method-start">35773 ms</span>
               </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">E2EFrameworkSample.samplePOMProject.AddToCartRandomItemsTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">addToCart</span>
+                <span class="method-start">35956 ms</span>
+              </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">E2EFrameworkSample.samplePOMProject.LoginTest</div> <!-- chronological-class-name -->
               <div class="configuration-test after">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">tearDown</span>
-                <span class="method-start">44322 ms</span>
-              </div> <!-- configuration-test after -->
-              <div class="configuration-test after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">45407 ms</span>
+                <span class="method-start">40106 ms</span>
               </div> <!-- configuration-test after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">E2EFrameworkSample.samplePOMProject.AddToCartRandomItemsTest</div> <!-- chronological-class-name -->
               <div class="configuration-test after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">47183 ms</span>
+                <span class="method-start">55472 ms</span>
               </div> <!-- configuration-test after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">E2EFrameworkSample.samplePOMProject.SearchWithResultsTest</div> <!-- chronological-class-name -->
               <div class="configuration-test after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">51507 ms</span>
+                <span class="method-start">59576 ms</span>
               </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
