@@ -27,8 +27,8 @@ public class Base {
 		
 		prop.load(fis);  
 		// if I want to run it from Jenkins configurations- use System.getProperty. In other cases use prop.getProperty!
-		String browserName = prop.getProperty("browser");
-		//String browserName = System.getProperty("browser");
+		//String browserName = prop.getProperty("browser");
+		String browserName = System.getProperty("browser");
 		// mvn test -Dbrowser = chrome
 		
 		System.out.println(browserName);		
