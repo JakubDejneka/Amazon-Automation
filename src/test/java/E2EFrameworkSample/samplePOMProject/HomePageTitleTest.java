@@ -1,3 +1,6 @@
+//
+//test
+//
 package E2EFrameworkSample.samplePOMProject;
 
 import java.io.IOException;
@@ -17,7 +20,7 @@ public class HomePageTitleTest extends Base{
 	public WebDriver driver;
 	public static Logger log = LogManager.getLogger(HomePageTitleTest.class.getName());
 	  
-	 
+
 	@BeforeTest
 	public void setUp() throws IOException{
 		driver = initializeDriver();
